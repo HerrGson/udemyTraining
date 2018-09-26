@@ -18,5 +18,7 @@ func main() {
 		fmt.Println("Wassup Julian")
 	case "Sushant":
 		fmt.Println("Wassup Sushant")
+	default:
+		fmt.Println("Have you no friends?")
 	}
 }
