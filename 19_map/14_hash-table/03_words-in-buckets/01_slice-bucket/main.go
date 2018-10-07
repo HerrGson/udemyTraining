@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// get the book adventures of sherlock holmes
-	res, err := http.Get("http://www.gutenberg.org/cache/epub/1661/pg1661.txt")
+	res, err := http.Get("http://www.gutenberg.org/files/2701/old/moby10b.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
