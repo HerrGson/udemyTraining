@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"sort"
 )
 
 type person struct {
@@ -33,9 +32,9 @@ func main() {
 	}
 
 	fmt.Println(people[0])
-	fmt.Println(people)
-	sort.Sort(ByAge(people))
-	fmt.Println(people)
+	// fmt.Println(people)
+	// sort.Sort(ByAge(people))
+	// fmt.Println(people)
 
 }
 
