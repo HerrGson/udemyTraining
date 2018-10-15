@@ -31,7 +31,7 @@ func foo() {
 func bar() {
 	for i := 0; i < 45; i++ {
 		fmt.Println("Bar:", i)
-		time.Sleep(20 * time.Millisecond)
+		time.Sleep(3 * time.Millisecond)
 	}
 	wg.Done()
 }
